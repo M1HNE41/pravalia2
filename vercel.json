@@ -1,0 +1,22 @@
+{
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/pravaliacumobila/logout.php", "dest": "/pravaliacumobila/logout.php" },
+    { "src": "/pravaliacumobila/mobila dormitor.php", "dest": "/pravaliacumobila/mobila dormitor.php" },
+    { "src": "/pravaliacumobila/mobila hol.php", "dest": "/pravaliacumobila/mobila hol.php" },
+    { "src": "/pravaliacumobila/mobila living.php", "dest": "/pravaliacumobila/mobila living.php" },
+    { "src": "/pravaliacumobila/signup.php", "dest": "/pravaliacumobila/signup.php" },
+    { "src": "/pravaliacumobila/signup-popup.css", "dest": "/pravaliacumobila/signup-popup.css" },
+    { "src": "/pravaliacumobila/signup-popup.html", "dest": "/pravaliacumobila/signup-popup.html" },
+    { "src": "/pravaliacumobila/struct.php", "dest": "/pravaliacumobila/struct.php" },
+    { "src": "/pravaliacumobila/style.css", "dest": "/pravaliacumobila/style.css" },
+    { "src": "/pravaliacumobila/index.php", "dest": "/pravaliacumobila/index.php" },
+    { "src": "/pravaliacumobila/accesorii bucatarie.php", "dest": "/pravaliacumobila/accesorii bucatarie.php" },
+    { "src": "/pravaliacumobila/baie.php", "dest": "/pravaliacumobila/baie.php" },
+    { "src": "/pravaliacumobila/birouri de acasa.php", "dest": "/pravaliacumobila/birouri de acasa.php" },
+    { "src": "/pravaliacumobila/config.php", "dest": "/pravaliacumobila/config.php" },
+    { "src": "/pravaliacumobila/contact.php", "dest": "/pravaliacumobila/contact.php" },
+    { "src": "/pravaliacumobila/footer.php", "dest": "/pravaliacumobila/footer.php" },
+    { "src": "/pravaliacumobila/logo.png", "dest": "/pravaliacumobila/logo.png" }
+  ]
+}
