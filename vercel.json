@@ -1,6 +1,11 @@
 {
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.5.2"
+    }
+  },
   "routes": [
-    { "handle": "filesystem" },
+    { "src": "/(.*)",  "dest": "/api/index.php" },
     { "src": "/pravaliacumobila/logout.php", "dest": "/pravaliacumobila/logout.php" },
     { "src": "/pravaliacumobila/mobila dormitor.php", "dest": "/pravaliacumobila/mobila dormitor.php" },
     { "src": "/pravaliacumobila/mobila hol.php", "dest": "/pravaliacumobila/mobila hol.php" },
@@ -10,7 +15,6 @@
     { "src": "/pravaliacumobila/signup-popup.html", "dest": "/pravaliacumobila/signup-popup.html" },
     { "src": "/pravaliacumobila/struct.php", "dest": "/pravaliacumobila/struct.php" },
     { "src": "/pravaliacumobila/style.css", "dest": "/pravaliacumobila/style.css" },
-    { "src": "/pravaliacumobila/index.php", "dest": "/pravaliacumobila/index.php" },
     { "src": "/pravaliacumobila/accesorii bucatarie.php", "dest": "/pravaliacumobila/accesorii bucatarie.php" },
     { "src": "/pravaliacumobila/baie.php", "dest": "/pravaliacumobila/baie.php" },
     { "src": "/pravaliacumobila/birouri de acasa.php", "dest": "/pravaliacumobila/birouri de acasa.php" },
